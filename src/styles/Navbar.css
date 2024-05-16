@@ -20,11 +20,11 @@
 }
 
 .navbar a {
-  color: white;
+  color: rgb(63, 60, 60);
   font-weight: bold;
   transition: color 0.3s ease-in-out;
   font-size: larger;
-  background-color: rgb(155, 153, 152);
+  /* background-color: rgb(155, 153, 152); */
   border-radius: 4px;
   background-size: auto;
 }
