@@ -29,7 +29,7 @@
   border-radius: 12px;
 }
 .welcome{
-  background: linear-gradient(to right, #ff0000, #00ff00, rgb(90, 87, 87));
+  background: linear-gradient(to right, #ff0000, #00ff00,#bbb3b3, black);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

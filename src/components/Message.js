@@ -4,7 +4,7 @@ import '../styles/Message.css';
 const Message = () => {
     return(
         <>
-        <section id="message" className="message">
+        <section>
         <h2><u>Contacts: </u></h2>
         <div class="contact-info">
             <div class="contact-item">
