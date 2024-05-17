@@ -4,7 +4,10 @@
   align-items: center;
   padding: 1rem 2rem;
   /* background-color: #333; */
-  color:black;
+  background: linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   position: sticky;
   top: 0;
   z-index: 1000;

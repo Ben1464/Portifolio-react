@@ -28,3 +28,9 @@
   height: 150px;
   border-radius: 12px;
 }
+.welcome{
+  background: linear-gradient(to right, #ff0000, #00ff00, rgb(90, 87, 87));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

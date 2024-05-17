@@ -7,8 +7,8 @@ const Home = () => {
     <section id="home" className="home">
       <img className='profile' src={profileImage} alt="Profile" /> {/* Use the imported image variable */}
       <div className="home-content">
-        <h2>Welcome to My Portfolio</h2>
-        <p>This is a showcase of my work.</p>
+        <h2 className='welcome'>Welcome to My Portfolio</h2>
+        {/* <p>This is a showcase of my work.</p> */}
       </div>
     </section>
   );
