@@ -28,10 +28,7 @@ h2{
 
 .project-item h3 {
   margin-top: 0;
-  background: linear-gradient(to right, #ff0000, #00ff00);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color:back;
 }
 @keyframes blink {
   0% { opacity: 1; }
