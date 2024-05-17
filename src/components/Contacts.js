@@ -6,6 +6,7 @@ const Contacts = () => {
     <section id="contact" className="contact">
 
 <h2><u>Contacts: </u></h2>
+<div className='reach-me'>
         <div class="contact-info">
             <div class="contact-item">
                 <h3><b>Email:</b></h3>
@@ -19,6 +20,7 @@ const Contacts = () => {
                
             </div>
 
+        </div>
         </div>
       <h2>Send me a message:</h2>
       <form>
