@@ -39,4 +39,10 @@ h2{
 /* Apply animation to the blinking link */
 .blinking-link {
   animation: blink 1s infinite;
+  background: linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

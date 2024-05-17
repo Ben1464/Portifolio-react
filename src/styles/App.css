@@ -28,14 +28,14 @@ button {
   padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 4px;
-  background-color: #007bff;
-  color: white;
+  background: linear-gradient(to right, #ff0000, #00ff00,#bbb3b3, black);
+  color:Black;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: yellowgreen;
 }
 
 footer {

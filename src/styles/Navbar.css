@@ -4,10 +4,7 @@
   align-items: center;
   padding: 1rem 2rem;
   /* background-color: #333; */
-  background: linear-gradient(to right, #ff0000, #00ff00);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -24,16 +21,20 @@
 
 .navbar a {
   color: rgb(63, 60, 60);
-  font-weight: bold;
+  font-weight: bolder;
   transition: color 0.3s ease-in-out;
   font-size: larger;
   /* background-color: rgb(155, 153, 152); */
   border-radius: 4px;
   background-size: auto;
+  background: linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .navbar a:hover {
-  color: #007bff;
+  color: greenyellow;
 }
 /* @media (max-width: 768px) {
   .navbar ul {
