@@ -13,6 +13,6 @@
   }
   
   /* Apply animation to the blinking link */
-  .blinking-link {
+  .blinking-link2 {
     animation: blink 1s infinite;
   }

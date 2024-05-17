@@ -8,13 +8,13 @@ const Contacts = () => {
 <h2><u>Contacts: </u></h2>
         <div class="contact-info">
             <div class="contact-item">
-                <h3>Email:</h3>
+                <h3><b>Email:</b></h3>
                 {/* <p><a href="mailto:youremail@example.com">salescoffee@greenlife.co.ke</a></p> */}
-                <p className='blinking-link'><a href="mailto:youremail@example.com">kimaniben14@gmail.com</a></p>
+                <p className='blinking-link2'><a href="mailto:youremail@example.com"><u>kimaniben14@gmail.com</u></a></p>
             </div>
             <div class="contact-item">
-                <h3>Phone:</h3>
-                <a className='blinking-link' href="tel:+254707811992"><i class="fas fa-phone"></i> +254707811992</a>
+                <h3><b>Phone:</b></h3>
+                <a className='blinking-link2' href="tel:+254707811992"><i class="fas fa-phone"></i> <u>+254707811992</u></a>
 
                
             </div>
