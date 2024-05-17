@@ -10,11 +10,14 @@ const Contacts = () => {
         <div class="contact-info">
             <div class="contact-item">
                 <h3><b>Email:</b></h3>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
+
                 {/* <p><a href="mailto:youremail@example.com">salescoffee@greenlife.co.ke</a></p> */}
-                <p className='blinking-link2'><a href="mailto:youremail@example.com"><u>kimaniben14@gmail.com</u></a></p>
+                <p className='blinking-link2'><a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i><u> kimaniben14@gmail.com</u></a></p>
             </div>
             <div class="contact-item">
                 <h3><b>Phone:</b></h3>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
                 <a className='blinking-link2' href="tel:+254707811992"><i class="fas fa-phone"></i> <u>+254707811992</u></a>
 
                
