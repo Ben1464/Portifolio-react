@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Uncommented this line to center items vertically */
+  align-items: center; /* This centers the items vertically */
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
@@ -12,7 +12,7 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
-  margin-left: auto; /* Added this line to push the hamburger menu to the right */
+  margin-left: auto; /* Ensures the hamburger is pushed to the right */
 }
 
 .navbar .hamburger .bar {
