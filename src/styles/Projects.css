@@ -50,3 +50,10 @@ video {
   height: 300px;
   width: 300px;
 }
+h3{
+  font-weight: bolder;
+  background: linear-gradient(to right, #181717, #00ff00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
