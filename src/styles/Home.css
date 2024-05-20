@@ -18,21 +18,26 @@
   margin: 2rem auto;
   display: flex;
   align-items: center; /* Center the items vertically */
+  overflow: hidden; /* Ensure no overflow */
 }
 
 .home-content {
   flex: 1;
   margin-left: 2rem; /* Add some space between image and text */
+  overflow: hidden; /* Prevent overflow in the content */
 }
 
 .home h2 {
   font-size: 2.5rem;
   overflow: hidden; /* Ensures the text will be clipped */
   border-right: .15em solid black; /* The typewriter cursor */
-  white-space: nowrap; /* Keeps the text on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto; /* Center the text */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  display: inline-block; /* Ensure the text does not extend beyond its container */
+  width: 100%;
+  box-sizing: border-box; /* Include border in the element's width */
+  white-space: pre-wrap; /* Allows text to wrap and respects whitespace */
 }
 
 .home p {
@@ -51,4 +56,5 @@
   background-clip: text;
   color: transparent;
   font-weight: bolder;
+  display: inline-block; /* Ensure the text does not extend beyond its container */
 }
