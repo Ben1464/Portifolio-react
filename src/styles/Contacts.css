@@ -45,9 +45,12 @@
 }
 
 .dark-mode .contact input,
-.dark-mode .contact textarea,
-.dark-mode .contact button {
+.dark-mode .contact textarea
+ {
   background-color: #333; /* Dark mode input and button background color */
   color: #fff; /* Dark mode input and button text color */
   border-color: #555; /* Dark mode input border color */
+}
+.dark-mode .contact button{
+  background-color: #110f0f;
 }
