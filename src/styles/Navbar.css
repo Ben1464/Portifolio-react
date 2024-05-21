@@ -1,18 +1,23 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* This centers the items vertically */
+  align-items: center;
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+.navbar.dark-mode {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+}
+
 .navbar .hamburger {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  margin-left: auto; /* Ensures the hamburger is pushed to the right */
+  margin-left: auto;
 }
 
 .navbar .hamburger .bar {
@@ -43,6 +48,10 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.navbar.dark-mode a {
+  color: #fff; /* Dark mode text color */
 }
 
 .navbar a:hover {
