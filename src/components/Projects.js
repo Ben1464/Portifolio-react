@@ -3,6 +3,7 @@ import '../styles/Projects.css';
 import video from '../videos/Vid_20240517_183410.mp4';
 import video1 from '../videos/Vid_20240404_062449.mp4';
 import video2 from '../videos/weather.mp4';
+import video3 from '../videos/health2.mp4';
 
 const Projects = () => {
   return (
@@ -40,11 +41,17 @@ const Projects = () => {
           </video>
           <h4 className='blinking-link'><a href="https://weather-app-omega-kohl-49.vercel.app/">Live link</a></h4>
         </div>
-        {/* <div className="project-item">
+        <div className="project-item">
           <h3>Health Mate</h3>
           <p>Health Mate web application is designed to address the increasing health concerns related to obesity. It calculates the user's BMI by taking input of their first name, height (in centimeters), and weight (in kilograms), and then provides personalized health advice and a proposed meal plan based on the BMI category.</p>
+          <h4>Demo video</h4>
+          <video controls>
+            <source src={video3} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
           <h4 className='blinking-link'><a href="https://health-mate-psi.vercel.app/">Live link</a></h4>
-        </div> */}
+        </div>
       </div>
     </section>
   );
