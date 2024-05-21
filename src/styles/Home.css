@@ -21,6 +21,12 @@
   overflow: hidden; /* Ensure no overflow */
 }
 
+.dark-mode .home {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Dark mode box shadow */
+}
+
 .home-content {
   flex: 1;
   margin-left: 2rem; /* Add some space between image and text */
@@ -38,6 +44,11 @@
   width: 100%;
   box-sizing: border-box; /* Include border in the element's width */
   white-space: pre-wrap; /* Allows text to wrap and respects whitespace */
+  color: inherit; /* Inherit color for dark mode */
+}
+
+.dark-mode .home h2 {
+  border-color: #fff; /* Border color for dark mode */
 }
 
 .home p {
@@ -58,3 +69,7 @@
   font-weight: bolder;
   display: inline-block; /* Ensure the text does not extend beyond its container */
 }
+
+/* .dark-mode .welcome {
+  background: linear-gradient(to right, #ff0000, #00ff00, #bbb3b3, white); 
+} */

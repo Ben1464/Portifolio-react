@@ -6,7 +6,14 @@
   max-width: 1200px;
   margin: 2rem auto;
 }
-h2{
+
+.dark-mode .projects {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Dark mode box shadow */
+}
+
+h2 {
   background: linear-gradient(to right, #ff0000, #00ff00);
   -webkit-background-clip: text;
   background-clip: text;
@@ -28,15 +35,24 @@ h2{
 
 .project-item h3 {
   margin-top: 0;
-  color:back;
+  color: back; /* Unclear what this color is supposed to be */
 }
+
+.dark-mode .project-item {
+  background-color: #444; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+}
+
+.dark-mode .project-item h3 {
+  color: #fff; /* Dark mode text color */
+}
+
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-/* Apply animation to the blinking link */
 .blinking-link {
   animation: blink 1s infinite;
   background: linear-gradient(to right, #ff0000, #00ff00);
@@ -46,11 +62,17 @@ h2{
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.dark-mode .blinking-link {
+  color: #fff; /* Dark mode text color */
+}
+
 video {
   height: 300px;
   width: 300px;
 }
-h3{
+
+h3 {
   font-weight: bolder;
   background: linear-gradient(to right, #181717, #00ff00);
   -webkit-background-clip: text;
@@ -58,3 +80,7 @@ h3{
   color: transparent;
   font-weight: bold;
 }
+
+/* .dark-mode h3 {
+  background: linear-gradient(to right, #181717, #00ff00); 
+} */

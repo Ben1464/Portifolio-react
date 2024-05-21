@@ -7,6 +7,12 @@
   margin: 2rem auto;
 }
 
+.dark-mode .contact {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Dark mode box shadow */
+}
+
 .contact form {
   display: flex;
   flex-direction: column;
@@ -15,6 +21,7 @@
 .contact label {
   margin: 0.5rem 0;
   font-weight: bold;
+  color: inherit; /* Inherit color for dark mode */
 }
 
 .contact input,
@@ -23,16 +30,24 @@
   margin: 0.5rem 0;
   border: 1px solid #ddd;
   border-radius: 4px;
+  background-color: #fff; /* Ensure input background color in dark mode */
+  color: inherit; /* Inherit color for dark mode */
 }
 
 .contact button {
   margin-top: 1rem;
- 
+  background-color: #007bff; /* Default button background color */
+  color: #fff; /* Default button text color */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.reach-me{
-  padding: 20px;
-  margin: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #f3f3f3;
+
+.dark-mode .contact input,
+.dark-mode .contact textarea,
+.dark-mode .contact button {
+  background-color: #333; /* Dark mode input and button background color */
+  color: #fff; /* Dark mode input and button text color */
+  border-color: #555; /* Dark mode input border color */
 }

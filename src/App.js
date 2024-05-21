@@ -6,8 +6,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contacts';
 import Footer from './components/Footer';
 import './styles/App.css';
-import moonIcon from '../src/icons/moon.png'; // Replace with your actual file path
-import sunIcon from '../src/icons/light.png'; // Replace with your actual file path
+import moonIcon from '../src/icons/moon.png';
+import sunIcon from '../src/icons/light.png';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,16 +25,16 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
       <Navbar />
       <button onClick={toggleDarkMode} className="toggle-dark-mode">
         <img src={darkMode ? sunIcon : moonIcon} alt="Toggle theme" />
       </button>
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Home darkMode={darkMode} />
+      <About darkMode={darkMode} />
+      <Projects darkMode={darkMode} />
+      <Contact darkMode={darkMode} />
+      <Footer darkMode={darkMode} />
     </div>
   );
 }

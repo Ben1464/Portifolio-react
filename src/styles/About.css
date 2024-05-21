@@ -7,6 +7,12 @@
   margin: 2rem auto;
 }
 
+.dark-mode .about {
+  background-color: #333; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Dark mode box shadow */
+}
+
 .about h2 {
   font-size: 2rem;
   background: linear-gradient(to right, #ff0000, #00ff00);
@@ -14,3 +20,7 @@
   background-clip: text;
   color: transparent;
 }
+
+/* .dark-mode .about h2 {
+  background: linear-gradient(to right, #ff0000, #00ff00, #bbb3b3, white); 
+} */

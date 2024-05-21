@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/Home.css';
 import profileImage from '../images/IMG_20231222_174337_886.jpg'; // Correctly import the image
 
-const Home = () => {
+const Home = ({ darkMode }) => {
   return (
-    <section id="home" className="home">
+    <section id="home" className={`home ${darkMode ? 'dark-mode' : ''}`}>
       <img className='profile' src={profileImage} alt="Profile" /> {/* Use the imported image variable */}
       <div className="home-content">
         <h2 className='welcome'>Hi! Welcome to My Portfolio.</h2>
