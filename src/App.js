@@ -26,9 +26,9 @@ const App = () => {
 
   return (
     <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
-      <Navbar />
-      <button onClick={toggleDarkMode} className="toggle-dark-mode">
-        <img src={darkMode ? sunIcon : moonIcon} alt="Toggle theme" />
+      <Navbar darkMode={darkMode} />
+      <button  onClick={toggleDarkMode} className="toggle-dark-mode">
+        <img src={darkMode ? sunIcon : moonIcon } alt="Toggle theme" />
       </button>
       <Home darkMode={darkMode} />
       <About darkMode={darkMode} />
