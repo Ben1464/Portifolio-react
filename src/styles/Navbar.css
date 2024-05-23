@@ -87,7 +87,7 @@
   }
 
   .navbar ul li a {
-    padding: 20px; /* Add padding for better touch interaction */
+    padding: 40px; /* Add padding for better touch interaction */
     width: 100%;
     text-align: center;
   }
