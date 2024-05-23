@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import profileImage from '../images/IMG_20231222_174337_886.jpg'; // Correctly import the image
+import profileImage from '../images/IMG_20240315_160134_754.jpg'; // Correctly import the image
 
 const Home = ({ darkMode }) => {
   return (
